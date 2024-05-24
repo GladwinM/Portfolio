@@ -351,7 +351,7 @@ const navLinks = [
   },
   {
     id: 5,
-    name: "Contac",
+    name: "Contact",
     url: "/#contact",
   },
 ];
