@@ -355,5 +355,5 @@ const navLinks = [
     url: "/#contact",
   },
 ];
-
+//done
 export { technologies, projects, testimonials, social, services, navLinks };
