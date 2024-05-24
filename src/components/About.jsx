@@ -7,7 +7,7 @@ import { textVariant, fadeIn } from "../utils/motion";
 const About = () => (
   <>
     <motion.h1 variants={textVariant()} className={style.title}>
-      About Me
+      The Man Behind the Code
     </motion.h1>
     <div className={style.para}>
       <motion.p variants={fadeIn("", "", 0.5, 1)} className={style.text}>
@@ -41,7 +41,7 @@ const About = () => (
         showcasing my dedication and determination to succeed. My commitment to
         the tech community is reflected on my{" "}
         <a
-          href="https://github.com/Rhaegar121"
+          href="https://github.com/GladwinM"
           target="_blank"
           className={style.link}
           rel="noreferrer"
@@ -68,6 +68,7 @@ const About = () => (
         to explore my journey, qualifications, and the knowledge I bring to the
         table.
       </motion.p>
+      
     </div>
   </>
 );

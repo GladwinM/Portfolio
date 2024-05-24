@@ -23,9 +23,8 @@
   background-color: var(--light-grey);
   border-radius: 8px;
 }
-
 .App {
-  --navy: #030b25;
+  --navy: #060d26;
   --cyan: #22abfa;
   --white: #dfe7f3;
   --grey: #b1bcdc;
@@ -45,6 +44,9 @@
   --light-blue: #26517d;
   --low-opacity: #ffffffcd;
 }
+
+
+
 
 .body {
   background-color: var(--navy);

@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import SectionWrapper from '../hoc';
-import { fadeIn, textVariant, slideIn } from '../utils/motion';
-import contact from '../assets/contact.svg';
-import style from './styles/contact.module.css';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import SectionWrapper from "../hoc";
+import { fadeIn, textVariant, slideIn } from "../utils/motion";
+import contact from "../assets/contact.svg";
+import style from "./styles/contact.module.css";
 
 const Contact = () => {
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -30,9 +30,9 @@ const Contact = () => {
       // Submit the form
       form.submit();
       setForm({
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
       });
     }
   };
@@ -42,14 +42,17 @@ const Contact = () => {
       <motion.h1 variants={textVariant()} className={style.title}>
         Get in Touch!
       </motion.h1>
-      <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.subtitle}>
-        I&apos;m always excited to hear about new opportunities and collaborations. Don&apos;t hesitate to reach out and let&apos;s make something great.
+
+      <motion.p variants={fadeIn("", "", 0.15, 1)} className={style.subtitle}>
+        I&apos;m always excited to hear about new opportunities and
+        collaborations. Don&apos;t hesitate to reach out and let&apos;s make
+        something great.
       </motion.p>
       <div className={style.container}>
         <motion.form
-          variants={slideIn('left', '', 0, 1)}
+          variants={slideIn("left", "", 0, 1)}
           onSubmit={handleSubmit}
-          action="https://formspree.io/f/mgeqgkdd"
+          action="https://formspree.io/f/moqgznqk"
           method="post"
           className={style.form_container}
         >
@@ -86,17 +89,40 @@ const Contact = () => {
               className={`${style.input} ${style.textarea}`}
             />
             <button type="submit" className={style.btn_container}>
-              <span className={style.btn_hover}>Get in touch</span>
-              <span className={style.btn}>Get in touch</span>
+              <span className={style.btn_hover}>Click it</span>
+              <span className={style.btn}>Submit</span>
+            </button>
+
+            <button
+              type="button"
+              className={style.btn_container}
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/12jgUtzRsHjH74DV1FvlHxxmPfckQ81Zc/view?usp=drivesdk",
+                  "_blank"
+                )
+              }
+            >
+              <span className={style.btn_hover}>Access my resume</span>
+              <span className={style.btn}>Access my resume</span>
             </button>
           </div>
         </motion.form>
-        <motion.div variants={slideIn('right', '', 0, 1)} className={style.img_container}>
-          <img src={contact} alt="contact" className={style.img} loading="lazy" />
+
+        <motion.div
+          variants={slideIn("right", "", 0, 1)}
+          className={style.img_container}
+        >
+          <img
+            src={contact}
+            alt="contact"
+            className={style.img}
+            loading="lazy"
+          />
         </motion.div>
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Contact, 'contact', 'my-0');
+export default SectionWrapper(Contact, "contact", "my-0");
