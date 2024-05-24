@@ -67,7 +67,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   align-self: flex-start;
-  color: var(--light-blue);
+  color: var(--cyan);
 }
 
 .input {
@@ -107,6 +107,7 @@
 
 .btn_hover,
 .btn {
+  color: rgb(213, 222, 230);
   transition: all 0.2s ease-out;
 }
 

@@ -28,6 +28,7 @@
 }
 
 .card {
+  margin: 0.3rem;
   aspect-ratio: 4 / 3;
   position: relative;
   overflow: hidden;
