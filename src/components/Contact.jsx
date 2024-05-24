@@ -103,7 +103,7 @@ const Contact = () => {
                 )
               }
             >
-              <span className={style.btn_hover}>Yea go ahead :)</span>
+              <span className={style.btn_hover}>Yea go ahead</span>
               <span className={style.btn}>Access my resume</span>
             </button>
           </div>
