@@ -344,13 +344,9 @@ const navLinks = [
     name: "Work",
     url: "/#work",
   },
+
   {
     id: 4,
-    name: "Testimonial",
-    url: "/#testimonial",
-  },
-  {
-    id: 5,
     name: "Contact",
     url: "/#contact",
   },
