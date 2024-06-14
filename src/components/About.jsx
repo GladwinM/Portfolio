@@ -13,7 +13,7 @@ const About = () => (
       <motion.p variants={fadeIn("", "", 0.5, 1)} className={style.text}>
         My name is{" "}
         <a
-          href="https://www.linkedin.com/in/kaungmyatkyaw/"
+          href="https://www.linkedin.com/in/gladwin-k/"
           target="_blank"
           className={style.link}
           rel="noreferrer"
@@ -68,7 +68,6 @@ const About = () => (
         to explore my journey, qualifications, and the knowledge I bring to the
         table.
       </motion.p>
-      
     </div>
   </>
 );
