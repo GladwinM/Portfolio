@@ -26,8 +26,7 @@
 # 📖 [Portfolio] <a name="about-project"></a>
 
 <div align="center">
-  <img src="src/assets/portfolio1.png" alt="project sample" width="700"  height="auto" />
-  <img src="src/assets/portfolio2.png" alt="project sample" width="700"  height="auto" />
+  
   <br/>
 
   <h3><b>Portfolio</b></h3>
@@ -63,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rhbarry.me/)
+- [Live Demo Link](https://Gladwin.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,11 +70,10 @@
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kaung Myat Kyaw**
+👤 **Gladwin Jeuish K**
 
-- GitHub: [GitHub](https://github.com/Rhaegar121)
-- Twitter: [Twitter](https://twitter.com/Rhaegar121)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaungmyatkyaw/)
+- GitHub: [GitHub](https://github.com/GladwinM)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gladwin-k/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +92,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
