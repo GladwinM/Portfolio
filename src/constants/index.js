@@ -177,7 +177,7 @@ const projects = [
     live_link: "https://metrics-webapp121.netlify.app/",
   },
   {
-    id: 5,
+    id: 3,
     name: "Track Budget App",
     desc: "Track Budget is a mobile web application where you can manage your budget: you have a list of purchases associated with a category, so that you can see how much money you spent and on what category.",
     tech: ["Ruby", "Ruby on Rails", "PostgreSQL"],
@@ -187,7 +187,7 @@ const projects = [
     live_link: "https://track-budget121-70a570d4e3e1.herokuapp.com/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Math Magicians",
     desc: "Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.",
     tech: ["React"],
@@ -197,7 +197,7 @@ const projects = [
     live_link: "https://math-magicians121.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Tic Tac Toe",
     desc: "Tic Tac Toe is a simple and classic game that is played on a 3x3 grid. The game is typically played with two players, one using “X” and the other using “O”. Mainly built with JavaScript.",
     tech: ["HTML5", "CSS3", "JavaScript"],
@@ -207,7 +207,7 @@ const projects = [
     live_link: "https://tiny-croquembouche-f67250.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Space Travelers' Hub",
     desc: "Space Travelers' Hub is a web application that provides commercial and scientific space travel services using the real live data from the SpaceX API. The application will allow users to book rockets and join selected space missions.",
     tech: ["React", "SpaceX API"],
@@ -217,7 +217,7 @@ const projects = [
     live_link: "https://space-travelers-hub121.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Guess the word",
     desc: "Guess The Word is a fun letter puzzle game where the player have to guess the hidden word using the clues that the game gives. The game ends if the player guesses the correct word or if he chooses the wrong letter 8 times. Mainly built with Javascript.",
     tech: ["HTML5", "CSS3", "JavaScript"],

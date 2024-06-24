@@ -30,7 +30,10 @@ const Popup = ({ handleClose, project }) => (
         </p>
         <p className={style.description}>{project.desc}</p>
         <div className={style.link}>
-          {project.id !== 2 && project.id !== 5 ? (
+          {project.id !== 2 &&
+          project.id !== 3 &&
+          project.id !== 6 &&
+          project.id !== 7 ? (
             <a
               href={project.source_link}
               target="_blank"
@@ -42,7 +45,7 @@ const Popup = ({ handleClose, project }) => (
             </a>
           ) : null}
 
-          {project.id !== 1 && project.id !== 5 ? (
+          {project.id !== 1 && project.id !== 3 ? (
             <a
               href={project.live_link}
               target="_blank"
