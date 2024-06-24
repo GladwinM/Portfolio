@@ -42,7 +42,7 @@ const Popup = ({ handleClose, project }) => (
             </a>
           ) : null}
 
-          {project.id !== 1 && project.id !== 8 ? (
+          {project.id !== 1 && project.id !== 5 ? (
             <a
               href={project.live_link}
               target="_blank"
