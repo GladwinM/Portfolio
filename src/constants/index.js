@@ -54,13 +54,7 @@ const social = [
     icon: linkedin,
     icon1: linkedin1,
   },
-  // {
-  //   id: 2,
-  //   name: "Facebook",
-  //   url: "https://www.facebook.com/",
-  //   icon: facebook,
-  //   icon1: facebook1,
-  // },
+ 
   {
     id: 3,
     name: "Instagram",
@@ -68,13 +62,7 @@ const social = [
     icon: instagram,
     icon1: instagram1,
   },
-  // {
-  //   id: 4,
-  //   name: "Twitter",
-  //   url: "https://twitter.com/Rhaegar121",
-  //   icon: twitter,
-  //   icon1: twitter1,
-  // },
+ 
   {
     id: 5,
     name: "Github",
@@ -147,11 +135,7 @@ const technologies = [
     name: "GitHub",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
-  {
-    stack: ["tools", "all"],
-    name: "Figma",
-    icon: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
-  },
+
   {
     stack: ["tools", "all"],
     name: "Postman",
@@ -214,7 +198,7 @@ const projects = [
     id: 5,
     name: "Space Travelers' Hub",
     desc: "Space Travelers' Hub is a web application that provides commercial and scientific space travel services using the real live data from the SpaceX API. The application will allow users to book rockets and join selected space missions.",
-    tech: ["React", "Redux", "SpaceX API"],
+    tech: ["javascript", "HTML&CSS", "SpaceX API"],
     img: spacetravelers,
     carousel: [spacetravelers1, spacetravelers2, spacetravelers3],
     source_link: "https://github.com/GladwinM",
@@ -232,60 +216,7 @@ const projects = [
   },
 ];
 
-const testimonials = [
-  {
-    id: 1,
-    name: "Wai Yan Phyo",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQHIGm84tR1dug/profile-displayphoto-shrink_400_400/0/1678261187815?e=1706745600&v=beta&t=7As3hxEEoIbLqqYAtqRYFq8_skjlRpFqzR4Je98nEg8",
-    text: "I highly recommend Barry for any software development role. During our recent collaboration, he consistently demonstrated exceptional coding skills and a strong work ethic.",
-    country: "Myanmar",
-    linkedIn: "https://www.linkedin.com/in/oyhpnayiaw/",
-  },
-  {
-    id: 2,
-    name: "Rachel Isaac",
-    image:
-      "https://media.licdn.com/dms/image/D4D35AQHOKsZ2nSaTjg/profile-framedphoto-shrink_400_400/0/1665541124692?e=1701936000&v=beta&t=sL1XHt06zQoHnGhp7MK0Y3agueHSL_nz16x5cj0IhvA",
-    text: "Throughout our collaboration, I was consistently impressed by Barry's professionalism, attention to detail, and ability to adapt to changing requirements.",
-    country: "United Arab Emirates",
-    linkedIn: "https://www.linkedin.com/in/racheleno/",
-  },
-  {
-    id: 3,
-    name: "Muhammad Talha Hanif",
-    image:
-      "https://media.licdn.com/dms/image/D4D35AQFAyNEYRXzHgg/profile-framedphoto-shrink_400_400/0/1687861232819?e=1701936000&v=beta&t=7YS0lpSFgX1meg_AubaY4MJLyL7_x1z42qRnGXU8PTo",
-    text: "He possesses a deep understanding of the latest technologies and trends in his field, allowing him to tackle complex challenges with ease.",
-    country: "Pakistan",
-    linkedIn: "https://www.linkedin.com/in/muhammad-talha-hanif/",
-  },
-  {
-    id: 4,
-    name: "Ahmed Hasan Rony",
-    image: "https://avatars.githubusercontent.com/u/77187003?v=4",
-    text: "I really am comfortable with collaborating and coding with Barry. His ingenious ideas give me a lot of ideas solving a problem multiple ways.",
-    country: "India",
-    linkedIn: "https://www.linkedin.com/in/ahroniy/",
-  },
-  {
-    id: 5,
-    name: "Innocent N.",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQE1qYMUswBOAw/profile-displayphoto-shrink_400_400/0/1688151359384?e=1705536000&v=beta&t=b6QNQZaBEBBfH0g7fvcZdS0L9jXgScAvXANDsOE6548",
-    text: "Communication was another strength that Barry brought to the table. He actively listened, communicated ideas clearly, and collaborated effectively with team members.",
-    country: "Rwanda",
-    linkedIn: "https://www.linkedin.com/in/innocent-n/",
-  },
-  {
-    id: 6,
-    name: "Marko Kermichiev",
-    image: "https://avatars.githubusercontent.com/u/112749658?v=4",
-    text: "I learned too much from you and I can say that you are fantastic developer. Working with you is always a pleasure, hope that we can work on some project asap.",
-    country: "Macedonia",
-    linkedIn: "https://www.linkedin.com/in/marko-kermichiev/",
-  },
-];
+
 
 const services = [
   {

@@ -15,7 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-- [👥 Authors](#authors)
+
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -71,6 +71,7 @@
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Gladwin Jeuish K**
+👤 **Barry K**
 
 - GitHub: [GitHub](https://github.com/GladwinM)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gladwin-k/)
