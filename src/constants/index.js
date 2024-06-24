@@ -54,7 +54,13 @@ const social = [
     icon: linkedin,
     icon1: linkedin1,
   },
- 
+  // {
+  //   id: 2,
+  //   name: "Facebook",
+  //   url: "https://www.facebook.com/",
+  //   icon: facebook,
+  //   icon1: facebook1,
+  // },
   {
     id: 3,
     name: "Instagram",
@@ -62,7 +68,13 @@ const social = [
     icon: instagram,
     icon1: instagram1,
   },
- 
+  // {
+  //   id: 4,
+  //   name: "Twitter",
+  //   url: "https://twitter.com/Rhaegar121",
+  //   icon: twitter,
+  //   icon1: twitter1,
+  // },
   {
     id: 5,
     name: "Github",
@@ -135,7 +147,7 @@ const technologies = [
     name: "GitHub",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
-
+  
   {
     stack: ["tools", "all"],
     name: "Postman",
@@ -158,7 +170,7 @@ const projects = [
     id: 2,
     name: "Metrics Webapp",
     desc: "Metrics Webapp is a mobile web application showing the current weather data of the cities using the Openweather API. It has two interfaces - city page and detail page based on the design of Nelson Sakwa on Behance. Built during the Microverse Module 3 React Captone Project.",
-    tech: ["React", "Redux", "Openweather API"],
+    tech: ["React", "JavaScript", "Openweather API"],
     img: metricwebapp,
     carousel: [metricswebapp1, metricswebapp2],
     source_link: "https://github.com/GladwinM",
@@ -198,7 +210,7 @@ const projects = [
     id: 5,
     name: "Space Travelers' Hub",
     desc: "Space Travelers' Hub is a web application that provides commercial and scientific space travel services using the real live data from the SpaceX API. The application will allow users to book rockets and join selected space missions.",
-    tech: ["javascript", "HTML&CSS", "SpaceX API"],
+    tech: ["React", "SpaceX API"],
     img: spacetravelers,
     carousel: [spacetravelers1, spacetravelers2, spacetravelers3],
     source_link: "https://github.com/GladwinM",
@@ -216,7 +228,9 @@ const projects = [
   },
 ];
 
-
+const testimonials = [
+  
+];
 
 const services = [
   {

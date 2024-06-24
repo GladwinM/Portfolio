@@ -11,7 +11,11 @@ const Popup = ({ handleClose, project }) => (
     className={style.overlay}
     initial="hidden"
     animate="show"
-    exit={{ opacity: 0, scale: 0, transition: { type: 'tween', duration: 0.5 } }}
+    exit={{
+      opacity: 0,
+      scale: 0,
+      transition: { type: "tween", duration: 0.5 },
+    }}
     variants={zoomIn(0, 0.5)}
   >
     <div className={style.container}>
@@ -26,12 +30,25 @@ const Popup = ({ handleClose, project }) => (
         </p>
         <p className={style.description}>{project.desc}</p>
         <div className={style.link}>
-          <a href={project.source_link} target="_blank" className={`${style.source_link} ${style.btn_container}`} rel="noreferrer">
-            <span className={style.btn_hover}>View Source</span>
-            <span className={style.btn}>View Source</span>
-          </a>
           {project.id !== 2 && project.id !== 5 ? (
-            <a href={project.live_link} target="_blank" className={`${style.live_link} ${style.btn_container}`} rel="noreferrer">
+            <a
+              href={project.source_link}
+              target="_blank"
+              className={`${style.source_link} ${style.btn_container}`}
+              rel="noreferrer"
+            >
+              <span className={style.btn_hover}>View Source</span>
+              <span className={style.btn}>View Source</span>
+            </a>
+          ) : null}
+
+          {project.id !== 1 && project.id !== 8 ? (
+            <a
+              href={project.live_link}
+              target="_blank"
+              className={`${style.live_link} ${style.btn_container}`}
+              rel="noreferrer"
+            >
               <span className={style.btn_hover}>View Live</span>
               <span className={style.btn}>View Live</span>
             </a>
